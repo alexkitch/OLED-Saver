@@ -10,3 +10,6 @@ You'll need a suitable video in the project root named `video.webm` (feel free t
 Then you should be good to go :thumbsup:
 
 There's also an Inno setup script provided for compiling the whole thing into a Windows setup package. Just install Inno, compile a Release version of the tool, and the script should spit out a setup package in the same directory as the output exe (`/bin/Release`)
+
+
+What are unit tests?
