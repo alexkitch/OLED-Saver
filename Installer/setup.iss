@@ -12,7 +12,7 @@
 AppId={{36B64885-1D4B-45B9-9101-AF203D05A249}
 AppName={#MyAppName}
 AppVersion={#MyAppVersion}
-;AppVerName={#MyAppName} {#MyAppVersion}
+AppVerName={#MyAppName}
 AppPublisher={#MyAppPublisher}
 DefaultDirName={autopf}\{#MyAppName}
 DisableProgramGroupPage=yes
@@ -36,7 +36,6 @@ Source: "..\OLEDSaver\bin\Release\libvlc\*"; DestDir: "{app}\libvlc"; Flags: ign
 Source: "..\OLEDSaver\bin\Release\AxInterop.WMPLib.dll"; DestDir: "{app}"; Flags: ignoreversion
 Source: "..\OLEDSaver\bin\Release\Interop.WMPLib.dll"; DestDir: "{app}"; Flags: ignoreversion
 Source: "..\OLEDSaver\bin\Release\OLEDSaver.exe.config"; DestDir: "{app}"; Flags: ignoreversion
-Source: "..\OLEDSaver\bin\Release\OLEDSaver.pdb"; DestDir: "{app}"; Flags: ignoreversion
 Source: "..\OLEDSaver\bin\Release\video.webm"; DestDir: "{app}"; Flags: ignoreversion
 Source: "..\OLEDSaver\bin\Release\Vlc.DotNet.Core.dll"; DestDir: "{app}"; Flags: ignoreversion
 Source: "..\OLEDSaver\bin\Release\Vlc.DotNet.Core.Interops.dll"; DestDir: "{app}"; Flags: ignoreversion
